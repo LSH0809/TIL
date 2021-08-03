@@ -67,6 +67,8 @@ ___
 
 ## 보다 자세히
 
-- String, StringBuffer, StringBuilder의 차이
+- [String, StringBuffer, StringBuilder의 차이 - 깃헙](https://github.com/LSH0809/TIL/blob/master/Java/String,StringBuffer,StringBuilder/String_StringBuffer_StringBuilder.md)
+- [String, StringBuffer, StringBuilder의 차이 - 티스토리](https://today-retrospect.tistory.com/91)
+
 
 - Object 객체 탐구하기(toString(), equals(), hashCode())
