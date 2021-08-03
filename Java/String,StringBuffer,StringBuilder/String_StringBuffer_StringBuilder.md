@@ -85,6 +85,11 @@ for(int i= 0; i< 1000; i++){
 
 **\- JDK 1.5 버전 이후일 경우** 컴파일 과정에서 String 객체를 사용하더라도 StringBuilder로 컴파일 되도록 변경되었습니다. 즉, 성능상의 이슈가 해소된 것입니다. 다만, 반복 루프문을 통해 문자열을 더하는 경우 여전히 객체를 메모리에 추가되는 점은 변경되지 않았습니다. 
 
+<br>
+
+(원문)
+[티스토리 블로그](https://today-retrospect.tistory.com/91)
+
 (참고한 블로그)
 
 [https://12bme.tistory.com/42](https://12bme.tistory.com/42)
