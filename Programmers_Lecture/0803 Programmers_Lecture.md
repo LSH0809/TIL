@@ -10,7 +10,7 @@ ___
     - 개념적인 용어 : 객체 / 기술적인 용어 : class, instance
     - 객체를 서로 구분할 필요가 있다. -> Type(형)으로 구분한다.
     <br>
-    
+
     ```java
     String str = "Hello World";
     (형)   (변수)   (인스턴스)
@@ -117,6 +117,4 @@ ___
 
 ## 보다 자세히
 
-- String, StringBuffer, StringBuilder의 차이
-
-- Object 객체 탐구하기(toString(), equals(), hashCode())
+- 디자인 패턴 23가지
