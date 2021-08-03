@@ -11,7 +11,7 @@
 
  먼저, String의 특징을 살펴보겠습니다.
 
- **String**과 **StringBuffer/StringBuilder**의 기본적인 차이는 __<span style = "color : red">Immutable(불변)/mutable(가변)</span>__입니다. String 객체는 생성이 될 경우, 할당된 메모리 공간에 대한 변화는 일어나지 않습니다. 아래의 코드를 한번 살펴보겠습니다.
+ **String**과 **StringBuffer/StringBuilder**의 기본적인 차이는 <strong><span style = "color : red">Immutable(불변)/mutable(가변)</span></strong>입니다. String 객체는 생성이 될 경우, 할당된 메모리 공간에 대한 변화는 일어나지 않습니다. 아래의 코드를 한번 살펴보겠습니다.
 
 ```java
 String str = "Hello World";
@@ -19,8 +19,9 @@ str += "!!";
 ```
 
 (그림 추가 예정)
+<br>
 
- 기존에 있던 __"Hello World"__는 없어지지 않고 새롭게 **"Hello World!!"**이 Heap 메모리 영역내의 **String Constant Pool**에 쌓이게 됩니다. 이후, GC(Garbage Collector)가 **"Hello World"**를 처리해주게 됩니다. 즉, 생성된 객체는 변하지 않고 새로운 객체가 계속 생성되는 것입니다.
+ 기존에 있던 <strong>"Hello World"</strong>는 없어지지 않고 새롭게 <strong>"Hello World!!"</strong>이 Heap 메모리 영역내의 **String Constant Pool**에 쌓이게 됩니다. 이후, GC(Garbage Collector)가 <strong>"Hello World"</strong>를 처리해주게 됩니다. 즉, 생성된 객체는 변하지 않고 새로운 객체가 계속 생성되는 것입니다.
 
  그렇다면, **StringBuilder**와 **StringBuffer**는 어떨까요?
 
@@ -32,8 +33,9 @@ sb.append("!!");
 ```
 
 (그림 추가 예정)
+<br>
 
- 가변적인 특징을 지니고 있기 때문에 처음 생성된 **"Hello World"**는 append() 메소드를 통해 **"Hello World!!"**로 변하게 됩니다. 즉, 앞서 확인한 **String**과는 다르게 새롭게 Heap 영역에 메모리를 쌓지 않고 기존에 있는 객체를 변화시킵니다.
+ 가변적인 특징을 지니고 있기 때문에 처음 생성된 <strong>"Hello World"</strong>는 append() 메소드를 통해 <strong>"Hello World!!"</strong>로 변하게 됩니다. 즉, 앞서 확인한 **String**과는 다르게 새롭게 Heap 영역에 메모리를 쌓지 않고 기존에 있는 객체를 변화시킵니다.
 
 단순히 한 두번의 연산과정일 경우에는 객체가 힙메모리에 쌓이는 것에 대한 우려가 없지만 이러한 예시를 생각해보겠습니다. 이렇게 + 연산과정(추가,삭제,수정)을 1000번하게 되면 String 인스턴스 1000개가 힙메모리에 쌓이게 됩니다. 하지만, **StringBuffer**나 **StringBuilder**를 사용하게 되면 하나만 생성하면 되므로 **훨씬 효율적이고 힙메모리에 부담이 적을것**입니다.
 
@@ -43,8 +45,9 @@ for(int i= 0; i< 1000; i++){
     str += i;
 }
 ```
+<br>
 
-### | StringBuffer vs StringBuilder
+## | StringBuffer vs StringBuilder
 
 그렇다면, 가변성을 지니고 있는 **StringBuffer**와 **StringBuilder**의 차이는 무엇이 있을까요? 
 
@@ -60,7 +63,9 @@ for(int i= 0; i< 1000; i++){
 
 (동기화에 대한 공부도 추가적으로 해보겠습니다.)
 
-### | Conclusion
+<br>
+
+## | Conclusion
 
  각 클래스들을 정리해보겠습니다. 물론, 최적화로 인하여 상이한 성능이 나올 수 있지만, 일반적인 경우에는 아래의 경우를 생각하며 사용하면 됩니다.
 
