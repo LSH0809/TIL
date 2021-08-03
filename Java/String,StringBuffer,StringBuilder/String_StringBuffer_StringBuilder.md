@@ -1,12 +1,17 @@
-**\[String, StringBuffer 그리고 StringBuilder의 차이를 알아야 하는 이유\]**
+# String,StringBuffer 그리고 StringBuilder의 차이
+
+## **\[String, StringBuffer 그리고 StringBuilder의 차이를 알아야 하는 이유\]**
 
  위 3가지 문자열 클래스는 Java를 사용하면 자주 접하게 되는 문자열 클래스입니다. 이는 모두 문자열을 저장하기도 하고 관리합니다. 하지만, 하는 역할이 비슷하다면 굳이 3가지가 존재해야 할까요? 당연히, 각각의 성능이 다르며 상황에 맞게 사용해야 합니다. 그러므로 하나씩 각 특징과 차이를 알아보겠습니다.
 
-### | String vs StringBuffer/StringBuilder
+
+***
+
+## | String vs StringBuffer/StringBuilder
 
  먼저, String의 특징을 살펴보겠습니다.
 
- **String**과 **StringBuffer/StringBuilder**의 기본적인 차이는 **Immutable(불변) / mutable(가변)**입니다. String 객체는 생성이 될 경우, 할당된 메모리 공간에 대한 변화는 일어나지 않습니다. 아래의 코드를 한번 살펴보겠습니다.
+ **String**과 **StringBuffer/StringBuilder**의 기본적인 차이는 ***Immutable(불변)/mutable(가변)***입니다. String 객체는 생성이 될 경우, 할당된 메모리 공간에 대한 변화는 일어나지 않습니다. 아래의 코드를 한번 살펴보겠습니다.
 
 ```java
 String str = "Hello World";
@@ -15,7 +20,7 @@ str += "!!";
 
 (그림 추가 예정)
 
- 기존에 있던 **"Hello World"**는 없어지지 않고 새롭게 **"Hello World!!"**이 Heap 메모리 영역내의 **String Constant Pool**에 쌓이게 됩니다. 이후, GC(Garbage Collector)가 **"Hello World"**를 처리해주게 됩니다. 즉, 생성된 객체는 변하지 않고 새로운 객체가 계속 생성되는 것입니다.
+ 기존에 있던 *"Hello World"*는 없어지지 않고 새롭게 **"Hello World!!"**이 Heap 메모리 영역내의 **String Constant Pool**에 쌓이게 됩니다. 이후, GC(Garbage Collector)가 **"Hello World"**를 처리해주게 됩니다. 즉, 생성된 객체는 변하지 않고 새로운 객체가 계속 생성되는 것입니다.
 
  그렇다면, **StringBuilder**와 **StringBuffer**는 어떨까요?
 
