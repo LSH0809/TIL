@@ -109,7 +109,7 @@ ___
         - D : DIP -> 추상화에 의존해야지, 구체화에 의존하면 안된다.
     
     - 공통점을 모아놓음 => 디자인 패턴(23가지 패턴)
-    - (https://refactoring.guru/)[https://refactoring.guru/]
+    - [디자인 패턴관련](https://refactoring.guru/)
 
 
         
