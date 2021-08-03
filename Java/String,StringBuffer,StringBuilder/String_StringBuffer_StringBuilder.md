@@ -11,13 +11,13 @@
 
  먼저, String의 특징을 살펴보겠습니다.
 
- **String**과 **StringBuffer/StringBuilder**의 기본적인 차이는 <strong><span style = "color : red">Immutable(불변)/mutable(가변)</span></strong>입니다. String 객체는 생성이 될 경우, 할당된 메모리 공간에 대한 변화는 일어나지 않습니다. 아래의 코드를 한번 살펴보겠습니다.
+ **String**과 **StringBuffer/StringBuilder**의 기본적인 차이는 <strong><span style = "color : #ea472e">Immutable(불변)/mutable(가변)</span></strong>입니다. String 객체는 생성이 될 경우, 할당된 메모리 공간에 대한 변화는 일어나지 않습니다. 아래의 코드를 한번 살펴보겠습니다.
 
 ```java
 String str = "Hello World";
 str += "!!";
 ```
-
+<br>
 (그림 추가 예정)
 <br>
 
@@ -31,7 +31,7 @@ str += "!!";
 StringBuffer sb = new StringBuffer("Hello World");
 sb.append("!!");
 ```
-
+<br>
 (그림 추가 예정)
 <br>
 
@@ -51,7 +51,7 @@ for(int i= 0; i< 1000; i++){
 
 그렇다면, 가변성을 지니고 있는 **StringBuffer**와 **StringBuilder**의 차이는 무엇이 있을까요? 
 
-가장 큰 차이는 **동기화 여부**입니다. **StringBuffer**는 동기화 키워드를 지원하여 멀티쓰레드 환경에서 안전하다는 특징(thread-safe)이 있습니다. 반대로, **StringBuilder**는 동기화를 지원하지 않기 때문에 멀티쓰레드 환경에서 사용하는 것은 적절하지 않지만, 그렇기 때문에 **StringBuilder**는 단일쓰레드 환경에서 **StringBuffer**보다 뛰어난 성능을 지니고 있습니다.
+가장 큰 차이는 <span style = "color : #ea472e">**동기화 여부**</span>입니다. **StringBuffer**는 동기화 키워드를 지원하여 멀티쓰레드 환경에서 안전하다는 특징(thread-safe)이 있습니다. 반대로, **StringBuilder**는 동기화를 지원하지 않기 때문에 멀티쓰레드 환경에서 사용하는 것은 적절하지 않지만, 그렇기 때문에 **StringBuilder**는 단일쓰레드 환경에서 **StringBuffer**보다 뛰어난 성능을 지니고 있습니다.
 
 \- **String**은 동기화 키워드를 지원하기 때문에 멀티쓰레드 환경에서 안전하게 사용할 수 있습니다.
 
