@@ -1,4 +1,4 @@
-# TIL(Today I Learned) 🚀
+# 강의 정리 🚀
 ___
 
 > 2021.08.05 Java Collection 이야기
@@ -140,7 +140,7 @@ ___
         - null 데이터 : Optional.empty()
         - 확인하는 방법 : .isEmpty(), .isPresent()
     <br>
-    
+
     ```java
     public class Main {
         public static void main(String[] args) {

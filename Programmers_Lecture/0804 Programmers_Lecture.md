@@ -1,4 +1,4 @@
-# TIL(Today I Learned) 🚀
+# 강의 정리 🚀
 ___
 
 > 2021.08.04 Java Interface 이야기
