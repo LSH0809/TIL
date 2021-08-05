@@ -36,12 +36,14 @@ ___
 
     ```
     
+<br>
 
 - ### Iterator ###
     - 데이터의 묶음을 풀어서 하나씩 처리할 수 있도록 하는 수단을 제공한다.
     - next() 메소드를 통해 다음 데이터를 호출할 수 있다. 
     - 역순으로 데이터를 접근할 수 없다.(previous 값 조회 X)
     - 만약, 추가적인 데이터가 없을 때, next()메소드를 지속적으로 호출할 경우 Exception이 발생한다.
+    <br>
     
     ```java
     public class Main {
@@ -60,6 +62,7 @@ ___
     }
 
     ```
+<br>
 
 - ### Stream ###
     - Stream은 끊어지지 않는 데이터의 흐름을 의미한다.
@@ -68,6 +71,7 @@ ___
     - filter,map,forEach와 같은 고차함수(함수를 인자로 받는 함수)가 제공이 된다.
     - Stream을 생성할 때는 generate와 iterate를 이용하여 만들 수 있다.
     - Stream을 사용하면 연속된 데이터에 대해 고차함수를 사용하여 보다 강력한 기능을 사용 및 표현이 가능하다.
+    <br>
 
     ```java
     public class Main {
@@ -118,6 +122,7 @@ ___
     }
 
     ```
+<br>
 
 - ### Optional ###
 
@@ -127,11 +132,14 @@ ___
         2. Optional을 사용하는 방법
 
     - EMPTY 객체를 사용하는 방법
+    <br>
+
         ![image](https://user-images.githubusercontent.com/73347933/128376817-1e0be74c-d2c7-4ee2-ad6d-ced6837aef63.png)
 
     - Optional을 사용하는 방법
         - null 데이터 : Optional.empty()
         - 확인하는 방법 : .isEmpty(), .isPresent()
+    <br>
     
     ```java
     public class Main {
