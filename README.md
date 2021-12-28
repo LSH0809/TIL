@@ -14,7 +14,9 @@ ___
 
 **[String,StringBuffer,StringBuilder의 차이](https://github.com/LSH0809/TIL/blob/master/Java/String%2CStringBuffer%2CStringBuilder/String_StringBuffer_StringBuilder.md)**
 
-Object 클래스 메소드 정리(equals(), hashCode(), toString()) (수정중)
+**[Object 클래스 메소드 정리(equals(), hashCode(), toString())](https://today-retrospect.tistory.com/92?category=464082)**
+
+**[@Transactional이란? @Transactional의 옵션은??](https://today-retrospect.tistory.com/243?category=466882)**
 <br>
 
 ### **[Programmers_DevCourse]**
