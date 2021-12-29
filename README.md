@@ -17,6 +17,8 @@ ___
 **[Object 클래스 메소드 정리(equals(), hashCode(), toString())](https://today-retrospect.tistory.com/92?category=464082)**
 
 **[@Transactional이란? @Transactional의 옵션은??](https://today-retrospect.tistory.com/243?category=466882)**
+
+**[Delete Data - Soft? Hard Delete](https://today-retrospect.tistory.com/230?category=466882)**
 <br>
 
 ### **[Programmers_DevCourse]**
