@@ -19,6 +19,8 @@ ___
 **[@Transactional이란? @Transactional의 옵션은??](https://today-retrospect.tistory.com/243?category=466882)**
 
 **[Delete Data - Soft? Hard Delete](https://today-retrospect.tistory.com/230?category=466882)**
+
+**[DTO / VO / Entity](https://today-retrospect.tistory.com/142?category=464082)**
 <br>
 
 ### **[Programmers_DevCourse]**
