@@ -21,6 +21,16 @@ ___
 **[Delete Data - Soft? Hard Delete](https://today-retrospect.tistory.com/230?category=466882)**
 
 **[DTO / VO / Entity](https://today-retrospect.tistory.com/142?category=464082)**
+
+**[디자인 패턴 1 - 싱글톤 패턴](https://today-retrospect.tistory.com/98?category=464082)**
+
+**[디자인 패턴 2 - 프록시 패턴](https://today-retrospect.tistory.com/102?category=464082)**
+
+**[디자인 패턴 3 - 빌더 패턴](https://today-retrospect.tistory.com/107?category=464082)**
+
+**[디자인 패턴 4 - 팩토리 메소드 패턴](https://today-retrospect.tistory.com/110?category=464082)**
+
+**[디자인 패턴 5 - 전략 패턴](https://today-retrospect.tistory.com/112?category=464082)**
 <br>
 
 ### **[Programmers_DevCourse]**
